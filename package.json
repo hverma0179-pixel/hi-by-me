@@ -1,0 +1,25 @@
+{
+  "name": "harvis-ai",
+  "version": "1.0.0",
+  "description": "Lightweight Jarvis-style Gemini voice assistant website.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "harvis",
+    "gemini",
+    "voice-assistant",
+    "jarvis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

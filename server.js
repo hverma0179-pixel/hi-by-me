@@ -8,7 +8,7 @@ const { randomUUID } = require("crypto");
 const app = express();
 const PORT = process.env.PORT || 4173;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-1.5-flash";
+const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
 const MEMORY_FILE = path.join(__dirname, "memory", "conversations.json");
 
 const SYSTEM_INSTRUCTION =
